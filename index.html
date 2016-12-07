@@ -7,8 +7,39 @@
   <script src="https://aframe.io/releases/latest/aframe.min.js"></script>
 
 </head>
-<body>
+<style>
+  .other-work {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    margin: 1em;
+    background-color: #1b95e0;
+    z-index: 999999;
+    position: absolute;
+    right: 1em;
+  }
+  button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+  }
 
+</style>
+<body>
+<div class="">
+  <button class="other-work">
+    <a target="_blank" href="http://www.frontenddev.yonibinstock.com">See my other work</a>
+  </button>
+</div>
 <a-scene>
   <a-entity position="0 1.8 5" rotation="0 90 0">
     <a-entity camera look-controls wasd-controls></a-entity>
